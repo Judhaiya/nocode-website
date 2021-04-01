@@ -13,6 +13,9 @@
     height:80px;
     
 }
+.demo-nav:hover,.call-to-action:hover{
+    background-color: rebeccapurple;
+}
 /*hero section */
 .h-wrapper{
     background-color:#ccc6c6;
@@ -38,7 +41,7 @@
 
 .caption{
     margin:3.5em 0;
-    font-size:18px;
+    font-size:24px;
 }
 .explanatory-image{
     text-align: center;
@@ -165,11 +168,14 @@
    
 
  }
+ .cta:hover{
+    background-color:rebeccapurple;
+}
  /*copyright section */
  .c-rights{
      display:flex;
      justify-content:space-between;
-   background-color: lightsteelblue;
+     background-color: lightsteelblue;
      padding:2em 2em;
      font-size:12px;
      margin-bottom:1em;
@@ -328,13 +334,8 @@
     .call-to-action{
         font-size: 30px;
     }
-    .call-to-action:hover{
-       
-        background-color:white;
-    }
-    .call-to-action a:hover{
-        color:rgb(120, 62, 179);
-    }
+    
+   
     .logo{
       
         font-size:40px;
@@ -365,10 +366,6 @@
     .cta{
         font-size:24px;
     }
-    .cta:hover{
-        background-color: rebeccapurple;
-    }
-    .cta a:hover{
-        color:white;
-    }
+    
+   
 }
