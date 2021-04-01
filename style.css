@@ -34,8 +34,10 @@
 .c-heading {
   padding-top:38px;
 }
-.c-paragraph{
-    margin:28px 0 37px 0;
+
+
+.caption{
+    margin:3.5em 0;
     font-size:18px;
 }
 .explanatory-image{
